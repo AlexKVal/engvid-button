@@ -1,0 +1,127 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+ v2.0 | 20110126
+ License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ======== */
+
+body {
+  font-family: Arial, 'Helvetica Neue', helvetica, 'Lucida Grande', tahoma, sans-serif;
+  font-size: 13px;
+  color: white;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 500px;
+  margin: 20px;
+  padding: 10px;
+  background-color: #26b1cf;
+  border-radius: 0 15px 15px 15px
+}
+
+.body {
+  box-sizing: border-box;
+  width: 475px;
+  height: 170px;
+  margin: 30px auto 5px auto;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 110px; /* temporary */
+}
+
+.big-blue {
+  position: relative;
+  font-family: 'Open Sans', 'Droid Sans', Arial, 'Helvetica Neue';
+  font-size: 1.5em;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.22);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.5);
+  padding: .5em;
+  color: #19667d;
+  background: #26b1cf;
+  background: linear-gradient(hsl(194, 67%, 66%), hsl(191, 69%, 48%));
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+.big-blue:hover {
+  background: #2094ad;
+  box-shadow: 1px 1px 3px rgba(0,0,0,.5) inset;
+  cursor: pointer;
+  left: 1px;
+  top: 1px;
+}
+.big-blue:active {
+  box-shadow: 1px 1px 7px rgba(0,0,0, .8) inset;
+}
+.question {
+  float: left;
+  margin-right: 15px;
+
+  width: 70px;
+  height: 70px;
+
+  box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.1), inset 2px 2px 3px rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+
+  font-size: 80px;
+  text-align: center;
+  font-family: serif;
+  line-height: 0.9em;
+}
+
+.header {
+  height: 70px;
+}
