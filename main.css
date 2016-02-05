@@ -126,3 +126,13 @@ h1 {
 .header {
   height: 70px;
 }
+
+/* change default text selection color */
+::-moz-selection {
+  background-color: #e3881e;
+  color: white;
+}
+::selection {
+  background-color: #e3881e;
+  color: white;
+}
