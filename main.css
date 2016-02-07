@@ -122,6 +122,7 @@ body {
   text-align: center;
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.22);
   background: #26b1cf;
+  background: -webkit-linear-gradient(hsl(194, 67%, 66%), hsl(191, 69%, 48%));
   background: linear-gradient(hsl(194, 67%, 66%), hsl(191, 69%, 48%));
   border-radius: 10px;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.5);
