@@ -121,8 +121,6 @@ body {
   color: #19667d;
   background: #26b1cf;
   background: linear-gradient(hsl(194, 67%, 66%), hsl(191, 69%, 48%));
-  outline: none;
-  border: none;
   border-radius: 10px;
   width: 80%;
   display: block;
